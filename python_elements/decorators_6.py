@@ -12,7 +12,7 @@ def sprawdz_typy(arguments, results):
                 raise(TypeError("The number of input arguments is different than declared"))
             for i,arg in enumerate(args):
                 if not isinstance(arg,arguments[i]):
-                    raise(TypeError(f"Argument {i} should be of type {arguments[i]}"))
+                    raise(TypeError(f"Argument {i} should be of type {arguments[i].__name__}"))
             result = fun(*args)
             if type(result) != results:
                 raise(TypeError(f"The output type is different than declared"))

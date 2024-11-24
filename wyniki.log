@@ -1,0 +1,3 @@
+2024-11-24 12:56:28 - Wywołano: add_elements() -> Wynik: 0
+2024-11-24 12:56:28 - Wywołano: add_elements(3, 4, 5) -> Wynik: 12
+2024-11-24 12:56:28 - Wywołano: add_elements(a = 2.5, b = 4, c = 0.25) -> Wynik: 6.75
