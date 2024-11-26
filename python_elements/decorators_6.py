@@ -6,8 +6,7 @@ Jeśli którykolwiek argument lub wartość zwracana przez funkcję nie zgadza s
 """
 def sprawdz_typy(arguments, results):
     def decorator(fun):
-        def operacja(*args):
-            
+        def operacja(*args):         
             if len(args) != len(arguments):
                 raise(TypeError("The number of input arguments is different than declared"))
             for i,arg in enumerate(args):
